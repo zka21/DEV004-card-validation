@@ -6,9 +6,53 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+
+    <header>
+       <h3 class="tituloDeEncabezado">La que crece</h3>
+    </header>
+    <main>
+      <div id="container" class="container">
+
+        <div class="card">
+          <img src="planta1.jpg" alt="Monstera">
+          <h4>Monstera Deliciosa</h4>
+          <p>La monstera deliciosa se ha convertido en una de las plantas favoritas para decorar 
+            espacios interiores gracias a sus increíbles e inusuales hojas. </p> 
+          <button id="botonComprar1" class="botonComprar" href="#">Comprar</button>
+        </div>
+
+        <div class="card">
+          <img src="planta2.jpg" alt="Monstera">
+          <h4>Alocasia</h4>
+          <p>La alocasia es una planta que puede llegar a medir hasta cinco metros de altura, puede cultivarse
+             en el interior del hogar o en el exterior, siempre que sean climas cálidos.</p> 
+          <button id="botonComprar2" class="botonComprar"  href="#">Comprar</button>
+        </div>
+
+        <div class="card">
+          <img src="planta3.jpg" alt="Monstera">
+          <h4>Zamioculas</h4>
+          <p>Es una planta tropical de bonito follaje y muy resistente que se cultiva con 
+            facilidad en el interior de la casa</p> 
+          <button id="botonComprar3" class="botonComprar"  href="#">Comprar</button>
+        </div>
+
+      </div>
+
+      
+      <div id="pantallaDeCardValidation">
+        <div class="container-card-validation">
+          <img id="logo" width="200" height="200" class="logo" src="logoLaQueCrece.jpg" alt="logo">
+          <p>Para poder realizar la compra ingresa <br> tu numero de tarjeta. </p>
+          <input type="text" placeholder="N° de su Tarjeta" id="cardnumber"  maxlength="16">
+          <button id="botonValidar">Validar Tarjeta</button>
+          <p id="tarjetaValida"></p>
+        </div>
+      </div>
+
+    </main>
     <footer></footer>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
