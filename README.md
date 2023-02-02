@@ -6,6 +6,7 @@ El proyecto tiene por finalidad  realizar una validacion de tarjeta esto se real
 
 * [1. Usuarios](#1-usuarios)
 * [2. Prototipo](#2-prototipo)
+* [3. Flujo de las funciones](#3-flujo-de-las-funciones)
 
 ## 1. Usuarios
 Los principales usuarios son para personas que les guste las plantas y busquen un espacio en el que puedan encontrar sobre caracteristicas y precios de plantas.
@@ -13,7 +14,12 @@ Los objetivos de los usuarios con relacion a este producto es que en un mismo lu
 
 ## 2. Prototipo
 * Prototipo de alta fidelidad de la primera y segunda pantalla:
+* puedes ver el proyecto en este enlace: [GitHub pages](https://zka21.github.io/DEV004-card-validation/)
 ![](p1.png)
 ![](p2.png)
 
-* puedes ver el proyecto en este enlace: [GitHub pages](https://zka21.github.io/DEV004-card-validation/)
+
+
+## 3. Flujo de las funciones
+* Este es un flujo que ayuda a comprender mejor el funcionamiento de cada funcion.
+![](flujo%20.png)
